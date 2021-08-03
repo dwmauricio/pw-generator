@@ -1,19 +1,19 @@
 body{
-    background: #0dc2c2;}
+    background: #f4a261;}
 
 
 .container{
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(32, 32, 32, 0.16), 0 3px 6px rgba(0,0,0,0.23);
     padding: 25px;
     width: 600px;
     margin: 10px auto;
-    background-color: white;
+    background-color: #ffe5d9;
 }
 .Title-Password-generator{
     text-align: center;
 }
 .btn{
-    background-color: rgb(177, 59, 59);
+    background-color:#264653;
     color: seashell;
     padding: 10px 30px;
     font-size: 20px;
@@ -30,7 +30,7 @@ body{
 
 .btn.right{
 
-    background-color: lightblue;
+    background-color: #e76f51;
     color: white  ;
     float: right;
 }
