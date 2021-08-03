@@ -1,9 +1,7 @@
 # Password-Genenerator
 This is a Password Generartor build with html css and JavaScript
 
-Please visit the deployed project at: 
-
-
+Please visit the deployed project at: https://dwmauricio.github.io/pw-generator/
 
 <h1>Description</h1>
 This project is a random password generator. To execute, click the "Generate Password" button and click the conditions of your password:
@@ -16,4 +14,4 @@ This project is a random password generator. To execute, click the "Generate Pas
 
 4) Click the copy to clipboard button to copy your password.
 
-![alt text]()
+![alt text](PW-generator-screenshot.png)
