@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+  </head>
+  <body>
+  
+<header>
+  <h1 class="Title-Password-generator"> PASSWORD GENERATOR </h1>
+
+</header>
+    <div class="container">
+
+        <h2>Generate a Password</h2>
+        <hr>
+        <div class="input-controls">
+          <label for="" class="babel">Select a Password Length between 8 and 128.</label>
+            <input type="number" class="input-length" name="passwordLength" id="passwordLength" min="8" max="128">
+           
+            <div class="form-checkbox">
+              <label for="nbLowerCaseChar" class="babel">
+                <input type="checkbox" name="nbLowerCaseChar" id="nbLowerCaseChar" id="nbLowerCaseChar">
+                    Lower-Case Characters
+              </label>
+
+            <div class="form-checkbox">
+              <label for="upperCaseChar" class="babel">
+                <input type="checkbox" name="upperCaseChar" id="upperCaseChar" id="upperCaseCaseChar">
+                    Upper-Case Characters
+              </label>
+             
+            <div class="form-checkbox">
+                <label for="numericalChar" class="babel">
+                  <input type="checkbox" name="numericalChar" id="numericalChar" id="numericalCaseChar">
+                   Numerical Characters
+                </label>  
+                
+                <div class="form-checkbox">
+                  <label for="specialChar" class="babel">
+                    <input type="checkbox" name="specialChar" id="specialChar" id="specialCaseChar">
+                        Special Characters
+                  </label>
+
+
+            </div>
+        </div>
+        <div class="Password-input"> 
+          <input type="text" class="input-password" id="Password" placeholder="Your Secure Password" >
+        </div>
+        <div class="Password-footer">
+          <hr>
+          <button class="btn left" id="generatepw">
+            Generate Password
+          </button>
+          <button class="btn right copyPasswords" id ="copyPassword">
+            Copy to clipboard
+          </button>
+
+
+        </div>
+
+    </div>
+<script src="script.js"></script>
+  </body>
+</html>
